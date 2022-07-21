@@ -1,19 +1,31 @@
 
 /* =============layout=========== */
 
+html, body, .capa{
+	height: 100%;
+}
+
+body {
+	background: url('imagens/capa.png'),
+	            url('imagens/ruido.png'), /* vai fazer uma combinacao */
+	            linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed; /*fazer o background ficar parado*/ 
+	font-family: Helvetica,Arial,sans-serif;       
+}
+
 /* barra de navegacao */
 .img-logo{
 	height: 40px;
 	width: 132px;
 	display: block;
 	background: url('imagens/spotify.svg') no-repeat;
-	background-size: contain;
+	background-size: contain; /*mesmo tamanho da class*/
 	color: transparent;
 }
 
 nav.navbar-transparente{
 	padding: 15px 0px;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.6); /*transparencia*/
 	border: none;
 }
 
@@ -36,5 +48,25 @@ nav.navbar-transparente{
 	color: #9bf0e1;
 }
 
+/* ========== imagem de capa ===========*/
+
+.capa{
+	border: 1px solid red;
+	display: table; /*deixar como table para alinhar no centro*/
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;/*deixar como table para alinhar no centro*/
+	vertical-align: middle;/*deixar como table para alinhar no centro*/
+}
+
 /* =============tipografia=========== */
 
+h1{
+	font-size: 100px;
+	font-weight: 900px;
+	letter-spacing: -0.05em; /*espacamento entre cada letra*/
+}

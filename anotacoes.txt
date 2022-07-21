@@ -1,0 +1,6 @@
+(criando a capa principal)
+
+- configurar o height da border, imagem de background
+- "lembrando de ajeitar nav-fixed para navbar-fixed"
+- criado o conteudo da capa para principal <div class="capa">
+      <div class="texto-capa">,  "classes: 'capa, texto-capa, h3"
