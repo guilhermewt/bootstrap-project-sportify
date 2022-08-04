@@ -1,6 +1,18 @@
-(criando a capa principal)
+(criando a capa principal part 1)
 
 - configurar o height da border, imagem de background
 - "lembrando de ajeitar nav-fixed para navbar-fixed"
 - criado o conteudo da capa para principal <div class="capa">
       <div class="texto-capa">,  "classes: 'capa, texto-capa, h3"
+
+
+(criando a capa principal part 2)
+
+- ajeitar o margin entre texto e botoes
+- formatar botoes nova class btn-custon
+-  arrendondamento,cor
+-  configurar para outro brownsers -webkit-..,-moz-bor..
+- espacamento dentro e margin
+- todas letras maiuscula
+- aplicar efeitos hover]
+- efeitos suaves

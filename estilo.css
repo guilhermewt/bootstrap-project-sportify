@@ -63,10 +63,42 @@ nav.navbar-transparente{
 	vertical-align: middle;/*deixar como table para alinhar no centro*/
 }
 
+/* ========== botoes ===========*/
+
+.btn-custon{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px; /*outros brownsers*/
+	-moz-border-radius: 500px; /*outros brownsers*/
+	padding: 10px 35px;
+	margin: 0px 15px;
+	text-transform: uppercase;/*deixar todos como maiuscula*/
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+	background: #7c25f8;
+}
+
+.btn-roxo:hover{
+	background-color: #6207e3;
+	color: white;
+}
+
+.btn-branco{
+	border: 2px solid white;
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+}
+
 /* =============tipografia=========== */
 
 h1{
 	font-size: 100px;
 	font-weight: 900px;
 	letter-spacing: -0.05em; /*espacamento entre cada letra*/
+	margin-bottom: 50px;
 }
