@@ -16,3 +16,23 @@
 - todas letras maiuscula
 - aplicar efeitos hover]
 - efeitos suaves
+
+(criando area de conteudo part 1)
+
+- criar section definir os id=servicos paddin,background
+
+- criar as colunas class="row",col-md-6,coloque uma bordar para visualizar
+
+- escrever os servicos h2,h3,p
+
+- para exibir as imagens de album vou precisar criar uma row e 2 divs com col-md-6
+
+- adicionar as img1,img1 as baixo voce tera que copiar o row e colocar como img3,img4
+
+- definir os espacamento dentro do albuns, crie uma nova class e coloque:padding: 10px 0px 10px 0px nas row 
+
+- definir formatacoes h2,h3:font-weight: 700;letter-spacing: -0.04; font 50,35;
+
+- definir as cores das fontes #servicos h2, #servicos h3{
+      color: #7c25f8;
+}
