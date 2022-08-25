@@ -36,3 +36,31 @@
 - definir as cores das fontes #servicos h2, #servicos h3{
       color: #7c25f8;
 }
+
+(criando area de conteudo part 2)
+
+- criar uma section id="recursos",container,row, <div class="col-md-4" e outra com md-8
+
+- no css criar algo parecido com o #servicos com os paddin
+
+- criar o  conteudo 1 'facil,busca.....
+
+- definir o estilo #recursos h3{ color: #9bf0e1;
+
+- definir as parter dos phones no conteudo 2, row,<div class="col-md-6">
+
+- definir as imagens dos iphones
+
+- criar a rotacao no css: .rotacionar{
+      transform: rotate(30deg); colocar na class row do html
+
+- colocar para outros navedores a rotacao
+   -ms-transform: rotate(30deg); /* IE 9 */
+   -webkit-transform: rotate(30deg); /* chrome, safari, opera */ na class .rotacionar 
+
+- os iphones esta encima do texto apenas coloque padding-left: 80px; na class .rotacionar  
+
+- tirar a barra de rolagem de baixo overflow-x: hidden; no 'body {'
+
+ //overflow-x: hidden; esconde a debaixo
+ //overflow-y: hidden; esconde a delado
