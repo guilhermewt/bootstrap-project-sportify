@@ -64,3 +64,39 @@
 
  //overflow-x: hidden; esconde a debaixo
  //overflow-y: hidden; esconde a delado
+
+ (criando rodape)
+
+ -  <footer id="rodape">
+      <div class="container">
+            <div class="row"> 
+
+ - no css padding: 50px 0px 20px 0px;
+          position: relative;  
+
+ - dividir as rows em 2 2 2 2 e 4
+ 
+ - col logo
+
+ - col <h4>company <ul class="nav",li
+
+ - col comunidades e links uteis
+
+ - criar um col-md-4 e colocar a mesma estrutura dos links so que com as imagens 
+
+ - formar os h4 color: #919496; 12px;text-transform:uppercase;   
+
+ - formatar os links para que fiquem brancos e hover ao passar o mouse, entao vamos fazer algo parecido com o que ja fizemos, a virgula vai apenas definir uma novo seccao
+
+    .navbar-inverse .navbar-nav>li>a, footer .nav a 
+
+
+    .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+      background: none
+
+  - fazer com que os icones fiquem um do lado do outro
+     .item-rede-social{
+      float: right;
+      }    
+
+  - <li class="item-rede-social"
