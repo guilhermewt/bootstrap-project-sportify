@@ -100,3 +100,40 @@
       }    
 
   - <li class="item-rede-social"
+
+  (otimizacoes com media queries)
+
+  - ao ver a visualizacao em dispositivos percebemoos que muita coisa fica fora de ordem
+  como o tamanho do testo,margin,...
+
+  - corrigir o scroll para que fica automatico e nao mexa
+    * html,body... 
+       - overflow: auto;
+
+  - fazer correcoes especificas apenas para determinados tamanhos usando mediaQueries
+  
+    * apagar o margin e padding pois vamos usar mediaQueries para formatar de acordo com o tamanho da tela
+
+    * /*media queries*/
+      /* xs < 768 */
+      @media screen and (max-width: 767px){
+       h1,fontSize,btn-custon,margin   
+
+       //ate 767 eu terei essa formatacao  
+
+    * /*sm*/ 
+      @media screen and (min-width: 768px){ fon...70
+
+       //apartir de 768 eu terei essa forma
+
+    * /*md*/
+      @media screen and(min-width: 992px){ font...
+      80
+
+        //apartir de 992 eu terei essa forma
+    
+    * /*lg*/  
+      @media screen and(min-width: 1200px){ font...
+      100
+
+        //apartir de 768 eu terei essa forma
